@@ -280,33 +280,123 @@ footer .social-links {
 
     .fa-github{
         font-size: 75px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 13px;
+        padding-right: 13px;
     }
 
     .fa-twitter{
         font-size: 75px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 13px;
+        padding-right: 13px;
     }
 
     .social-links{
         margin-top: 0px;
+        padding-top: 0px;
         padding-bottom: 75px;   
     }
 
     body > section > div > ul:nth-child(2){
         /*background-color: red !important;*/
         text-align: center;
-        padding-left:10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    body > section > div > ul > li > article > h3{
+        font-size: 1.5em !important;
+        margin-top: 10px !important;
+    }
+
+    body > section > div > ul > li > article > p{
+        font-size: 1.25em !important;
+        /*background-color: red !important;*/
+    }
+
+    body > section > div > h2:nth-last-child(3){
+        /*background-color: red !important;*/
+        font-size: 1.5em !important;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-weight: bold;
+    }
+
+    body > section > div > img{
+        margin-top: 25px;
+        width: 135px;
+        height: 135px;
+    }
+
+    body > section > div > div > img{
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    body > section > div > div > p{
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        text-justify: none !important;
+        letter-spacing: 0px !important;
+    }
+
+    body > section > div > div > form > label{
+        /*background-color:red !important;*/
+        font-size: 1.5em !important;
+        font-weight: bold;
+    }
+
+    body > section > div > div > form > input{
+        /*background-color:red !important;*/
+        font-size: 1.5em !important;
+        padding-bottom: 15px !important;
+        padding-top: 15px !important;
+        margin-top: 12px !important;
+    }
+
+    body > section > div > div > form > input:last-child{
+        font-size: 1.5em !important;
+        padding-bottom: 15px !important;
+        padding-top: 15px !important;
+        margin-top: 20px !important;
+        margin-bottom: 50px !important;
+    }
+
+    body > section > div > div > form > textarea{
+        /*background-color:red !important;*/
+        font-size: 1.5em !important;
+        margin-top: 12px !important;
+        height: 180px !important;
+    }
+
+    body > footer > ul{
+        /*background-color:red !important;*/
+        padding: 0px !important;
+    }
+
+    body > footer > p{
+        /*background-color:red !important;*/
+        font-size: 0.8em !important;
+    }
+
+    .contact{
+        padding-left: 10%;
         padding-right: 10%;
     }
 
     body > section > div > h2:nth-child(2){
-        font-size: 3em;
+        font-size: 2.65em;
     }
     body > section > div > p{
         font-size: 14px !important;
+        padding-top: 12px;
+        padding-bottom:5px;
+    }
+
+    body > section > div > h2:nth-last-child(2){
+        font-size: 1.5em !important;
     }
 
     /*$("button").click(function(){
