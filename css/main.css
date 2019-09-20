@@ -260,6 +260,60 @@ footer .social-links {
     
 }
 
+@media only screen and (min-width: 400px) {
+
+    /*TODO: FALTA CSS */
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .fa-bars{
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+    .fa-github{
+        font-size: 75px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .fa-twitter{
+        font-size: 75px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .social-links{
+        margin-top: 0px;
+        padding-bottom: 75px;   
+    }
+
+    body > section > div > ul:nth-child(2){
+        /*background-color: red !important;*/
+        text-align: center;
+        padding-left:10%;
+        padding-right: 10%;
+    }
+
+    body > section > div > h2:nth-child(2){
+        font-size: 3em;
+    }
+    body > section > div > p{
+        font-size: 14px !important;
+    }
+
+    /*$("button").click(function(){
+        $(this).find("i").removeClass("fa-star-o").addClass("fa-truck");
+    });*/
+}
+
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
   
@@ -332,6 +386,11 @@ footer .social-links {
         font-size: 100px;
     }
 
+    .menu{
+        font-size: 4em;
+
+    }
+
 }
 
 @media only screen and (min-width: 1440px) {
@@ -343,3 +402,4 @@ footer .social-links {
         max-width: 1440px;
     }
 }
+
