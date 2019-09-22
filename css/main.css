@@ -481,7 +481,7 @@ footer .social-links {
     .container {
         width: 100%;
         margin: 0 auto;
-        max-width: 1024px;
+        max-width: 1440px;
     }
     /* estilizando el icono github + reposicionamiento */
     .fa-github{
