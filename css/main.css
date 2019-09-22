@@ -170,7 +170,8 @@ p{
 }
 /* seteando tamaño a la imagen del about */
 .bio-info img{
-   width: 200px;
+   width: 40%;
+   height: 40%;
 }
 /* estilizando el parrafo del about */
 .bio-info p{
@@ -562,9 +563,13 @@ footer .social-links {
     /*TODO: FALTA CSS */
     /* se agrega width para que la pagina no se estire mucho en pantallas grandes */
     .container {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         max-width: 1440px;
+    }
+
+    .menu{
+        font-size: 1.25em !important;
     }
 }
 
